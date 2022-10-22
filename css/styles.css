@@ -1,6 +1,11 @@
+.wrapper {
+  
+}
+
 .box {
   display: inline-block;
-  border: 5px black;
+  text-align: center;
+  border: 10px solid black;
 }
 
 h1 {
