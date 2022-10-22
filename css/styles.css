@@ -1,7 +1,12 @@
+h1 {
+  color: blueviolet;
+  text-align: center;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-template-rows: 5% 19% 19% 19% 19% 19%;  
+  grid-template-rows: 5% 19% 19% 19% 19% 19%; 
 }
 
 .box {
@@ -13,6 +18,8 @@
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+  text-align: center;
+  background-color: rgb(251, 129, 182);
 }
 .project-1 {
   grid-column-start: 1;
@@ -54,7 +61,27 @@
   background-color: rgb(17, 17, 239);
 }
 
-h1 {
-  color: blueviolet;
+.about-me {
   text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: aquamarine;
+}
+
+.about-me-wrapper {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 7;
+}
+
+h3 {
+  text-align: center;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
 }
