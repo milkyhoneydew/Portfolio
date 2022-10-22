@@ -5,7 +5,7 @@ h1 {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 15% 85%;
   grid-template-rows: 5% 19% 19% 19% 19% 19%; 
 }
 
@@ -20,6 +20,7 @@ h1 {
   grid-row-end: 2;
   text-align: center;
   background-color: rgb(251, 129, 182);
+  font-size: 14px;
 }
 .project-1 {
   grid-column-start: 1;
@@ -27,6 +28,18 @@ h1 {
   grid-row-start: 2;
   grid-row-end: 3;
   background-color: plum;
+}
+
+.project-1 p{
+  font-size: 12px;
+}
+
+.project-1 h3{
+  font-size: 13px;
+}
+
+.project-1 ul{
+  font-size: 12px;
 }
 
 .project-2 {
@@ -37,12 +50,36 @@ h1 {
   background-color: rgb(61, 235, 38);
 }
 
+.project-2 p{
+  font-size: 12px;
+}
+
+.project-2 h3{
+  font-size: 13px;
+}
+
+.project-2 ul{
+  font-size: 12px;
+}
+
 .project-3 {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
   background-color:rgb(250, 27, 217)
+}
+
+.project-3 p{
+  font-size: 12px;
+}
+
+.project-3 h3{
+  font-size: 13px;
+}
+
+.project-3 ul{
+  font-size: 12px;
 }
 
 .project-4 {
@@ -53,12 +90,36 @@ h1 {
   background-color: rgb(67, 217, 150);
 }
 
+.project-4 p{
+  font-size: 12px;
+}
+
+.project-4 h3{
+  font-size: 13px;
+}
+
+.project-4 ul{
+  font-size: 12px;
+}
+
 .project-5 {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 6;
   grid-row-end: 7;
   background-color: rgb(17, 17, 239);
+}
+
+.project-5 p{
+  font-size: 12px;
+}
+
+.project-5 h3{
+  font-size: 13px;
+}
+
+.project-5 ul{
+  font-size: 12px;
 }
 
 .about-me {
