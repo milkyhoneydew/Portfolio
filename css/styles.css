@@ -5,17 +5,20 @@
   grid-template-rows: 5% 5% 18% 18% 18% 18% 18%; 
 }
 
-h1 {
-  color: rgb(186, 130, 239);
-  text-align: center;
-  background-color: black;
-}
-
 .heading {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(239, 137, 137);
+  padding: 5px;
+}
+
+h1 {
+  display: inline;
+  text-align: center;
 }
 
 .box {
@@ -39,6 +42,7 @@ div .project-5 {
   color:rgb(245, 143, 229);
   background-color: black;
 }
+
 .project-1 {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -194,10 +198,22 @@ ol {
   color:rgb(49, 1, 222);
 }
 
-img {
+.kitten-container {
+  text-align: center;
+}
+
+.kitten {
+  width: 200px;
+  height: auto;
+  margin: 5px;
+  border: 5px solid black;
+}
+
+.cookies {
   float: right;
   width: 100px;
   height: auto;
   margin: 5px;
   border: 5px solid black;
 }
+
