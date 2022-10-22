@@ -1,7 +1,7 @@
 # Portfolio Landing Page
 
 #### By Tanya Prado
-####Landing Page for Tanya's Portfolio
+Landing Page for Tanya's Portfolio
 
 ## Technologies Used
 
