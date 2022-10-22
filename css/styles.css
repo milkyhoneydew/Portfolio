@@ -1,10 +1,10 @@
 .wrapper {
-  
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: auto;  
 }
 
 .box {
-  display: inline-block;
-  text-align: center;
   border: 10px solid black;
 }
 
