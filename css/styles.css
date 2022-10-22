@@ -1,6 +1,9 @@
 h1 {
-  color: blueviolet;
+  color: rgb(186, 130, 239);
   text-align: center;
+  border: 5px;
+  padding: 5px;
+  background-color: black;
 }
 
 .wrapper {
@@ -19,8 +22,9 @@ h1 {
   grid-row-start: 1;
   grid-row-end: 2;
   text-align: center;
-  background-color: rgb(251, 129, 182);
   font-size: 14px;
+  color:rgb(245, 143, 229);
+  background-color: black;
 }
 .project-1 {
   grid-column-start: 1;
@@ -53,7 +57,7 @@ h1 {
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
-  background-color: rgb(61, 235, 38);
+  background-color: rgb(172, 238, 164);
 }
 
 .project-2 a {
@@ -79,7 +83,7 @@ h1 {
   grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
-  background-color:rgb(250, 27, 217)
+  background-color:rgb(123, 218, 230)
 }
 
 .project-3 a {
@@ -105,7 +109,7 @@ h1 {
   grid-column-end: 2;
   grid-row-start: 5;
   grid-row-end: 6;
-  background-color: rgb(67, 217, 150);
+  background-color: rgb(110, 241, 182);
 }
 
 .project-4 a {
@@ -131,7 +135,7 @@ h1 {
   grid-column-end: 2;
   grid-row-start: 6;
   grid-row-end: 7;
-  background-color: rgb(17, 17, 239);
+  background-color: rgb(154, 176, 244);
 }
 
 .project-5 a {
@@ -181,4 +185,6 @@ img {
   float: right;
   width: 100px;
   height: auto;
+  margin: 5px;
+  border: 5px solid black;
 }
