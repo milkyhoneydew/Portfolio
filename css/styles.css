@@ -1,26 +1,39 @@
-h1 {
-  color: rgb(186, 130, 239);
-  text-align: center;
-  border: 5px;
-  padding: 5px;
-  background-color: black;
-}
 
 .wrapper {
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-template-rows: 5% 19% 19% 19% 19% 19%; 
+  grid-template-rows: 5% 5% 18% 18% 18% 18% 18%; 
+}
+
+h1 {
+  color: rgb(186, 130, 239);
+  text-align: center;
+  background-color: black;
+}
+
+.heading {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .box {
   padding: 5px;
+  border: 5px solid black;
+  border-top: 2.5px solid black;
+  border-bottom: 2.5px solid black;
+}
+
+div .project-5 {
+  border-bottom: 5px solid black;
 }
 
 .projects {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   text-align: center;
   font-size: 14px;
   color:rgb(245, 143, 229);
@@ -29,8 +42,8 @@ h1 {
 .project-1 {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
   background-color: plum;
 }
 
@@ -55,8 +68,8 @@ h1 {
 .project-2 {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
   background-color: rgb(172, 238, 164);
 }
 
@@ -81,8 +94,8 @@ h1 {
 .project-3 {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
   background-color:rgb(123, 218, 230)
 }
 
@@ -107,8 +120,8 @@ h1 {
 .project-4 {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 5;
-  grid-row-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 7;
   background-color: rgb(110, 241, 182);
 }
 
@@ -133,8 +146,8 @@ h1 {
 .project-5 {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 8;
   background-color: rgb(154, 176, 244);
 }
 
@@ -163,8 +176,8 @@ h1 {
 .about-me-content-wrapper {
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 8;
   padding: 5px;
 }
 
