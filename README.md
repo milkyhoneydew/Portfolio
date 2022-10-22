@@ -22,6 +22,8 @@ None.
 
 ## GitHub Pages Link
 
+milkyhoneydew.github.io/portfolio
+
 ## License
 
 Copyright (c) _2022_ _Tanya Prado_
