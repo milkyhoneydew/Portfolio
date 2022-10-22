@@ -26,4 +26,5 @@ milkyhoneydew.github.io/portfolio
 
 ## License
 
+MIT
 Copyright (c) _2022_ _Tanya Prado_
